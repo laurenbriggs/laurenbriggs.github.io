@@ -1,0 +1,337 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+}
+
+a:visited{
+  color: pink;
+  text-decoration: overline;
+}
+
+a:link{
+  color: pink;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: plum;
+  text-decoration: line-through;
+}
+
+.centre{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+  z-index: 1;
+  opacity: 1;
+  transition: all 2s;
+}
+
+.centre.hide{
+  opacity: 0;
+  transition: all 2s;
+}
+
+
+.heading{
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 18px;
+  color: grey;
+}
+
+.caption{
+  font-family: fantasy;
+  font-size: 12px;
+  color: grey;
+}
+
+.nav__1of6{
+  color: grey;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 4
+}
+
+.nav__2of6{
+  color: plum;
+  position: fixed;
+  top:20px;
+  right: 20px;
+  z-index: 5;
+}
+.nav__3of6{
+  color: grey;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 4
+}
+
+.nav__4of6{
+  color: plum;
+  position: fixed;
+  top:20px;
+  right: 20px;
+  z-index: 5;
+}
+.nav__5of6{
+  color: grey;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 4
+}
+
+.nav__6of6{
+  color: plum;
+  position: fixed;
+  top:20px;
+  right: 20px;
+  z-index: 5;
+}
+
+.left{
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+.articlel{
+  padding: 20px 70px 20px 70px;
+  font-size: 12px;
+  height: 100vh;
+  width: 50vw;
+  background-color: whitesmoke;
+  position: fixed;
+  left: -45vw;
+  top: 0px;
+  z-index: 2;
+  transition: all 2s;
+  overflow: scroll;
+}
+
+.articlel.showme{
+  left: 0;
+}
+
+.right{
+  font-family: monospace;
+  font-weight: lighter;
+}
+
+.articler{
+  padding: 20px 70px 20px 70px;
+  font-size: 12px;
+  height: 100vh;
+  width: 50vw;
+  background-color: seashell;
+  position: fixed;
+  right: -45vw;
+  top: 0px;
+  z-index: 3;
+  transition: all 2s;
+  overflow: scroll;
+}
+
+.articler.showme{
+  right: 0;
+}
+
+
+.rollover{
+  color: salmon;
+  text-decoration: line-through;
+}
+
+.rollover:hover{
+  text-decoration: overline;
+}
+
+.blur{
+  position: fixed;
+  opacity: 0;
+  filter: blur(20px);
+  pointer-events: none;
+  transition: all 2s;
+}
+
+.blur.showme{
+  opacity:1;
+  filter: blur(0);
+  transition: all 2s;
+}
+
+.scale{
+  position: fixed;
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none;
+  transition: all 2s;
+}
+
+.scale.showme{
+  opacity:1;
+  transform: scale(1);
+  transition: all 2s;
+}
+
+.rotate{
+  position: fixed;
+  opacity: 0;
+  transform: scale(0) rotate(0deg);
+  pointer-events: none;
+  transition: all 2s;
+}
+
+.rotate.showme{
+  opacity:1;
+  transform: scale(1) rotate(360deg);
+  transition: all 2s;
+}
+
+.facebookimage{
+  border: solid 200px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.twitterimage{
+  border: solid 80px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.iphoneimage{
+  position: fixed;
+  top: 0px;
+  left: 60px;
+}
+
+.homerimage{
+  border: solid 200px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.adamimage{
+  border: solid 100px;
+  border-color: white;
+  position: fixed;
+  top: 0vh;
+  left: 0px;
+}
+
+.drunkimage{
+  border: solid 120px;
+  border-color: white;
+  position: fixed;
+  top: 0vh;
+  left: 50px;
+}
+
+.cognitiveimage{
+  border-left: solid 80px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.mosesimage{
+  border: solid 150px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:2px;
+}
+
+.arkimage{
+  position: fixed;
+  top: 0px;
+  left:2px;
+}
+
+.carsonimage{
+  position: fixed;
+  top: 0px;
+  left:50px;
+}
+
+.fontimage{
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.notimage{
+  border: solid 30px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.nyimage{
+  position: fixed;
+  top: 0px;
+  left:50px;
+}
+
+.columnimage{
+  border: solid 200px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.mediumimage{
+  border: solid 80px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.forgetimage{
+  border: solid 80px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:100px;
+}
+
+.siliconimage{
+  border: solid 50px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:50px;
+}
+
+.userimage{
+  border: solid 100px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:50px;
+}
+
+.consumeimage{
+  border: solid 5px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:60px;
+}
