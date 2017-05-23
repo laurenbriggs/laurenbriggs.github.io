@@ -50,11 +50,9 @@ a:hover{
   color: grey;
 }
 
-.nav{
-  font-size: 8pt;
-}
 
 .nav__1of6{
+  font-size: 8pt;
   color: grey;
   position: fixed;
   top: 20px;
@@ -63,6 +61,7 @@ a:hover{
 }
 
 .nav__2of6{
+  font-size: 8pt;
   color: plum;
   position: fixed;
   top:20px;
