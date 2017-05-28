@@ -122,8 +122,13 @@ a:hover{
   left: 0;
 }
 
-.right{
+.tro{
   font-family: 'Barrio';
+  font-weight: lighter;
+}
+
+.trt{
+  font-family: 'Just Me Again Down Here';
   font-weight: lighter;
 }
 
@@ -132,6 +137,7 @@ a:hover{
   font-size: 12px;
   height: 100vh;
   width: 50vw;
+  color: grey;
   background-color: seashell;
   position: fixed;
   right: -45vw;
@@ -144,7 +150,6 @@ a:hover{
 .articler.showme{
   right: 0;
 }
-
 
 .rollover{
   color: salmon;
@@ -560,6 +565,19 @@ a:hover{
   left: 250px;
 }
 
+.scratchimage{
+  position: fixed;
+  top: 175px;
+  left: 250px;
+}
+.pushimage{
+  position: fixed;
+  top: 250px;
+  left: 250px;
+}
+
+
+
 /* NOTE: list items article 2 */
 
 .list__1of4{
@@ -568,6 +586,10 @@ a:hover{
   animation-duration:4s;
   animation-iteration-count: infinite;
 }
+.list__1of4.showme{
+  text-transform: uppercase;
+}
+
 @keyframes listone{
     0%   {color: pink;}
     25%  {color: salmon;}
@@ -581,6 +603,9 @@ a:hover{
   animation-duration:4s;
   animation-iteration-count: infinite;
 }
+.list__2of4.showme{
+  text-transform: uppercase;
+}
 @keyframes listtwo{
     0%   {color: salmon;}
     25%  {color: coral;}
@@ -593,6 +618,9 @@ a:hover{
   animation-duration:4s;
   animation-iteration-count: infinite;
 }
+.list__3of4.showme{
+  text-transform: uppercase;
+}
 @keyframes listthree{
     0%   {color: coral;}
     25%  {color: peachpuff;}
@@ -604,6 +632,9 @@ a:hover{
   animation-name: listfour;
   animation-duration:4s;
   animation-iteration-count: infinite;
+}
+.list__4of4.showme{
+  text-transform: uppercase;
 }
 @keyframes listfour{
     0%   {color: peachpuff;}

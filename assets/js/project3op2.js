@@ -427,7 +427,22 @@ $('.emory').mouseleave(function() {
     $('.emoryimage').removeClass('showme');
   });
 
-// NOTE: list items
+  $('.scratch').mouseenter(function() {
+    $('.scratchimage').addClass('showme');
+  });
+
+  $('.scratch').mouseleave(function() {
+      $('.scratchimage').removeClass('showme');
+    });
+    $('.push').mouseenter(function() {
+      $('.pushimage').addClass('showme');
+    });
+
+    $('.push').mouseleave(function() {
+        $('.pushimage').removeClass('showme');
+      });
+
+// NOTE: list items article 2
 
 $('.list__1of4').mouseenter(function() {
   $('.list__1of4').addClass('showme');
@@ -437,6 +452,7 @@ $('.list__1of4').mouseleave(function() {
     $('.list__1of4').removeClass('showme');
   });
 
+
   $('.list__2of4').mouseenter(function() {
     $('.list__2of4').addClass('showme');
   });
@@ -445,6 +461,7 @@ $('.list__1of4').mouseleave(function() {
       $('.list__2of4').removeClass('showme');
     });
 
+
     $('.list__3of4').mouseenter(function() {
       $('.list__3of4').addClass('showme');
     });
@@ -452,6 +469,7 @@ $('.list__1of4').mouseleave(function() {
     $('.list__3of4').mouseleave(function() {
         $('.list__3of4').removeClass('showme');
       });
+
 
       $('.list__4of4').mouseenter(function() {
         $('.list__4of4').addClass('showme');
