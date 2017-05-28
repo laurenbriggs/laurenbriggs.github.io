@@ -45,7 +45,7 @@ a:hover{
 }
 
 .caption{
-  font-family: fantasy;
+  font-family: 'barrio';
   font-size: 12px;
   color: grey;
 }
@@ -197,6 +197,24 @@ a:hover{
   transition: all 2s;
 }
 
+.spin{
+  position: fixed;
+  opacity: 0;
+  transform: scale(0) rotate(0deg);
+  pointer-events: none;
+  transition: all 2s;
+}
+
+.spin.showme{
+  opacity:1;
+  transform: scale(1) rotate(630deg);
+  transition: all 2s;
+}
+
+
+
+/* NOTE: article one */
+
 .facebookimage{
   border: solid 200px;
   border-color: white;
@@ -337,4 +355,45 @@ a:hover{
   position: fixed;
   top: 0px;
   left:60px;
+}
+
+
+/* NOTE: article two */
+
+.familiarimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left:100px;
+}
+
+.teacherimage{
+  border: solid 150px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:0px;
+}
+
+.cognitionimage{
+  border: solid 100px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:50px;
+}
+
+.encodeimage{
+  position: fixed;
+  width: 675px;
+  height: auto;
+  top: 185px;
+  left:0px;
+}
+
+.learningimage{
+  position: fixed;
+  top: 100px;
+  left:180px;
 }

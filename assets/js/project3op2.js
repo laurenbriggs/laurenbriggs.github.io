@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
 // Add jQuery here
-
+// NOTE: all pages
 
     $('.articlel').click(function() {
         $('.articlel').toggleClass('showme');
@@ -21,7 +21,7 @@ $(document).ready(function() {
         $('.centre').toggleClass('hide');
       });
 
-
+// NOTE: article one
 
       $('.facebook').mouseenter(function() {
         $('.facebookimage').addClass('showme');
@@ -182,5 +182,51 @@ $('.column').mouseleave(function() {
   $('.consume').mouseleave(function() {
       $('.consumeimage').removeClass('showme');
     });
+
+
+// NOTE: article two
+
+$('.familiar').mouseenter(function() {
+  $('.familiarimage').addClass('showme');
+});
+
+$('.familiar').mouseleave(function() {
+    $('.familiarimage').removeClass('showme');
+  });
+
+$('.teacher').mouseenter(function() {
+  $('.teacherimage').addClass('showme');
+});
+
+$('.teacher').mouseleave(function() {
+    $('.teacherimage').removeClass('showme');
+  });
+
+$('.cognition').mouseenter(function() {
+  $('.cognitionimage').addClass('showme');
+});
+
+$('.cognition').mouseleave(function() {
+    $('.cognitionimage').removeClass('showme');
+  });
+
+$('.encode').mouseenter(function() {
+  $('.encodeimage').addClass('showme');
+});
+
+$('.encode').mouseleave(function() {
+    $('.encodeimage').removeClass('showme');
+  });
+
+$('.learning').mouseenter(function() {
+  $('.learningimage').addClass('showme');
+});
+
+$('.learning').mouseleave(function() {
+    $('.learningimage').removeClass('showme');
+  });
+
+
+
 
   });
