@@ -69,6 +69,7 @@ a:hover{
   z-index: 5;
 }
 .nav__3of6{
+  font-size: 6pt;
   color: grey;
   position: fixed;
   top: 20px;
@@ -77,6 +78,8 @@ a:hover{
 }
 
 .nav__4of6{
+  font-family: 'Just Me Again Down Here';
+  font-size: 6pt;
   color: plum;
   position: fixed;
   top:20px;
@@ -84,6 +87,7 @@ a:hover{
   z-index: 5;
 }
 .nav__5of6{
+  font-size: 6pt;
   color: grey;
   position: fixed;
   top: 20px;
@@ -92,6 +96,7 @@ a:hover{
 }
 
 .nav__6of6{
+  font-size: 6pt;
   color: plum;
   position: fixed;
   top:20px;
@@ -127,8 +132,13 @@ a:hover{
   font-weight: lighter;
 }
 
-.trt{
+.trtw{
   font-family: 'Just Me Again Down Here';
+  font-weight: lighter;
+}
+
+.trth{
+  font-family: 'Barrio';
   font-weight: lighter;
 }
 
@@ -581,7 +591,6 @@ a:hover{
 /* NOTE: list items article 2 */
 
 .list__1of4{
-  color: black;
   animation-name: listone;
   animation-duration:4s;
   animation-iteration-count: infinite;
@@ -598,7 +607,6 @@ a:hover{
 }
 
 .list__2of4{
-  color: black;
   animation-name: listtwo;
   animation-duration:4s;
   animation-iteration-count: infinite;
@@ -613,7 +621,6 @@ a:hover{
     100% {color: pink;}
 }
 .list__3of4{
-  color: black;
   animation-name: listthree;
   animation-duration:4s;
   animation-iteration-count: infinite;
@@ -628,7 +635,6 @@ a:hover{
     100% {color: salmon;}
 }
 .list__4of4{
-  color: black;
   animation-name: listfour;
   animation-duration:4s;
   animation-iteration-count: infinite;
@@ -641,4 +647,158 @@ a:hover{
     25%  {color: pink;}
     50%  {color: salmon;}
     100% {color: coral;}
+}
+
+
+/* NOTE: article three */
+
+.climbimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left: 0px;
+}
+.robimage{
+  position: fixed;
+  width: 550px;
+  height: auto;
+  top: 150px;
+  left: 80px;
+}
+.barbimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left: 120px;
+}
+.jasonimage{
+  position: fixed;
+  top: 200px;
+  left: 200px;
+}
+.victorimage{
+  position: fixed;
+  width: 550px;
+  height: auto;
+  top: 0px;
+  left: 75px;
+}
+.michaelimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left: 0px;
+}
+
+.hermanimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left: 125px;
+}
+.shakeimage{
+  position: fixed;
+  width: 550px;
+  height: auto;
+  top: 70px;
+  left: 75px;
+}
+.drawingsimage{
+  position: fixed;
+  top: 200px;
+  left: 230px;
+}
+
+.swerveimage{
+  position: fixed;
+  top: 150px;
+  left: 250px;
+}
+.stephenimage{
+  position: fixed;
+  width: 550px;
+  height: auto;
+  top: 150px;
+  left: 75px;
+}
+.georgeimage{
+  position: fixed;
+  top: 130px;
+  left: 180px;
+}
+.johnimage{
+  position: fixed;
+  top: 190px;
+  left: 200px;
+}
+
+.iq84image{
+  position: fixed;
+  top: 200px;
+  left: 240px;
+}
+.harukiimage{
+  position: fixed;
+  top: 200px;
+  left: 230px;
+}
+.spaldingimage{
+  position: fixed;
+  top: 190px;
+  left: 220px;
+}
+
+.joanimage{
+  position: fixed;
+  top: 200px;
+  left: 230px;
+}
+.blueimage{
+  position: fixed;
+  top: 200px;
+  left: 240px;
+}
+.garryimage{
+  position: fixed;
+  top: 190px;
+  left: 240px;
+}
+
+.darntonimage{
+  position: fixed;
+  top: 150px;
+  left: 250px;
+}
+.pfaffimage{
+  position: fixed;
+  top: 130px;
+  left: 180px;
+}
+.volckerimage{
+  position: fixed;
+  top: 190px;
+  left: 200px;
+}
+.hudsonimage{
+  position: fixed;
+  top: 260px;
+  left: 100px;
+}
+
+.no{
+  animation-name: listone;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes no{
+    0%   {color: pink;}
+    25%  {color: salmon;}
+    50%  {color: coral;}
+    100% {color: peachpuff;}
 }
