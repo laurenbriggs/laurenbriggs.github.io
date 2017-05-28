@@ -227,6 +227,240 @@ $('.learning').mouseleave(function() {
   });
 
 
+$('.long').mouseenter(function() {
+  $('.longimage').addClass('showme');
+});
+
+$('.long').mouseleave(function() {
+    $('.longimage').removeClass('showme');
+  });
+
+$('.engage').mouseenter(function() {
+  $('.engageimage').addClass('showme');
+});
+
+$('.engage').mouseleave(function() {
+    $('.engageimage').removeClass('showme');
+  });
+
+$('.alien').mouseenter(function() {
+  $('.alienimage').addClass('showme');
+});
+
+$('.alien').mouseleave(function() {
+    $('.alienimage').removeClass('showme');
+  });
+
+$('.arial').mouseenter(function() {
+  $('.arialimage').addClass('showme');
+});
+
+$('.arial').mouseleave(function() {
+    $('.arialimage').removeClass('showme');
+  });
+
+$('.comic').mouseenter(function() {
+$('.comicimage').addClass('showme');
+});
+
+$('.comic').mouseleave(function() {
+  $('.comicimage').removeClass('showme');
+});
+
+$('.bodoni').mouseenter(function() {
+  $('.bodoniimage').addClass('showme');
+});
+
+$('.bodoni').mouseleave(function() {
+    $('.bodoniimage').removeClass('showme');
+  });
+
+$('.ninety').mouseenter(function() {
+  $('.ninetyimage').addClass('showme');
+});
+
+$('.ninety').mouseleave(function() {
+    $('.ninetyimage').removeClass('showme');
+  });
+
+$('.fourteen').mouseenter(function() {
+  $('.fourteenimage').addClass('showme');
+});
+
+$('.fourteen').mouseleave(function() {
+    $('.fourteenimage').removeClass('showme');
+  });
+
+$('.pp').mouseenter(function() {
+  $('.ppimage').addClass('showme');
+});
+
+$('.pp').mouseleave(function() {
+    $('.ppimage').removeClass('showme');
+  });
+
+$('.gorilla').mouseenter(function() {
+  $('.gorillaimage').addClass('showme');
+});
+
+$('.gorilla').mouseleave(function() {
+    $('.gorillaimage').removeClass('showme');
+  });
+
+  $('.chris').mouseenter(function() {
+    $('.chrisimage').addClass('showme');
+  });
+
+  $('.chris').mouseleave(function() {
+      $('.chrisimage').removeClass('showme');
+    });
+
+  $('.dan').mouseenter(function() {
+    $('.danimage').addClass('showme');
+  });
+
+  $('.dan').mouseleave(function() {
+      $('.danimage').removeClass('showme');
+    });
+
+  $('.store').mouseenter(function() {
+    $('.storeimage').addClass('showme');
+  });
+
+  $('.store').mouseleave(function() {
+      $('.storeimage').removeClass('showme');
+    });
+
+  $('.atob').mouseenter(function() {
+    $('.atobimage').addClass('showme');
+  });
+
+  $('.atob').mouseleave(function() {
+      $('.atobimage').removeClass('showme');
+    });
+
+  $('.england').mouseenter(function() {
+    $('.englandimage').addClass('showme');
+  });
+
+  $('.england').mouseleave(function() {
+      $('.englandimage').removeClass('showme');
+    });
+
+  $('.usa').mouseenter(function() {
+    $('.usaimage').addClass('showme');
+  });
+
+  $('.usa').mouseleave(function() {
+      $('.usaimage').removeClass('showme');
+    });
+
+$('.slow').mouseenter(function() {
+  $('.slowimage').addClass('showme');
+});
+
+$('.slow').mouseleave(function() {
+    $('.slowimage').removeClass('showme');
+  });
+
+  $('.students').mouseenter(function() {
+    $('.studentsimage').addClass('showme');
+  });
+
+  $('.students').mouseleave(function() {
+      $('.studentsimage').removeClass('showme');
+    });
+
+  $('.auto').mouseenter(function() {
+    $('.autoimage').addClass('showme');
+  });
+
+  $('.auto').mouseleave(function() {
+      $('.autoimage').removeClass('showme');
+    });
+
+  $('.holes').mouseenter(function() {
+    $('.holesimage').addClass('showme');
+  });
+
+  $('.holes').mouseleave(function() {
+      $('.holesimage').removeClass('showme');
+    });
+
+  $('.dd').mouseenter(function() {
+    $('.ddimage').addClass('showme');
+  });
+
+  $('.dd').mouseleave(function() {
+      $('.ddimage').removeClass('showme');
+    });
+
+  $('.deeper').mouseenter(function() {
+    $('.deeperimage').addClass('showme');
+  });
+
+  $('.deeper').mouseleave(function() {
+      $('.deeperimage').removeClass('showme');
+    });
+
+$('.puzz').mouseenter(function() {
+  $('.puzzimage').addClass('showme');
+});
+
+$('.puzz').mouseleave(function() {
+    $('.puzzimage').removeClass('showme');
+  });
+
+$('.bang').mouseenter(function() {
+  $('.bangimage').addClass('showme');
+});
+
+$('.bang').mouseleave(function() {
+    $('.bangimage').removeClass('showme');
+  });
+
+$('.emory').mouseenter(function() {
+  $('.emoryimage').addClass('showme');
+});
+
+$('.emory').mouseleave(function() {
+    $('.emoryimage').removeClass('showme');
+  });
+
+// NOTE: list items
+
+$('.list__1of4').mouseenter(function() {
+  $('.list__1of4').addClass('showme');
+});
+
+$('.list__1of4').mouseleave(function() {
+    $('.list__1of4').removeClass('showme');
+  });
+
+  $('.list__2of4').mouseenter(function() {
+    $('.list__2of4').addClass('showme');
+  });
+
+  $('.list__2of4').mouseleave(function() {
+      $('.list__2of4').removeClass('showme');
+    });
+
+    $('.list__3of4').mouseenter(function() {
+      $('.list__3of4').addClass('showme');
+    });
+
+    $('.list__3of4').mouseleave(function() {
+        $('.list__3of4').removeClass('showme');
+      });
+
+      $('.list__4of4').mouseenter(function() {
+        $('.list__4of4').addClass('showme');
+      });
+
+      $('.list__4of4').mouseleave(function() {
+          $('.list__4of4').removeClass('showme');
+        });
+
 
 
   });

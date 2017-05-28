@@ -291,8 +291,10 @@ a:hover{
 
 .fontimage{
   position: fixed;
+  height: 675px;
+  width: auto;
   top: 0px;
-  left:0px;
+  left:75px;
 }
 
 .notimage{
@@ -396,4 +398,216 @@ a:hover{
   position: fixed;
   top: 100px;
   left:180px;
+}
+
+.longimage{
+  position: fixed;
+  height: 650px;
+  width: auto;
+  top: 15px;
+  left:50px;
+}
+
+.engageimage{
+  border: solid 100px;
+  border-color: white;
+  position: fixed;
+  top: 0px;
+  left:50px;
+}
+
+.alienimage{
+  position: fixed;
+  top: 15px;
+  left:100px;
+}
+
+.arialimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left:70px;
+}
+
+.comicimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left:70px;
+}
+.bodoniimage{
+  position: fixed;
+  top: 200px;
+  left:100px;
+}
+
+.ninetyimage{
+  position: fixed;
+  top: 200px;
+  left:250px;
+}
+
+.fourteenimage{
+  position: fixed;
+  top: 200px;
+  left:200px;
+}
+
+.ppimage{
+  position: fixed;
+  top: 200px;
+  left:200px;
+}
+
+.gorillaimage{
+  position: fixed;
+  top: 100px;
+  left: 150px;
+}
+
+.chrisimage{
+  position: fixed;
+  top: 200px;
+  left: 150px;
+}
+.danimage{
+  position: fixed;
+  top: 200px;
+  left: 200px;
+}
+
+.storeimage{
+  position: fixed;
+  width: 550px;
+  height: auto;
+  top: 150px;
+  left: 75px;
+}
+
+.atobimage{
+  position: fixed;
+  width: 675px;
+  height: auto;
+  top: 150px;
+  left: 50px;
+}
+.englandimage{
+  position: fixed;
+  height: 675px;
+  width: auto;
+  top: 0px;
+  left:150px;
+}
+.usaimage{
+  position: fixed;
+  width: 675px;
+  height: auto;
+  top: 160px;
+  left: 0px;
+}
+.slowimage{
+  position: fixed;
+  top: 5px;
+  left: 50px;
+}
+
+.studentsimage{
+  position: fixed;
+  top: 200px;
+  left: 200px;
+}
+
+.autoimage{
+  position: fixed;
+  top: 75px;
+  left: 75px;
+}
+
+.holesimage{
+  position: fixed;
+  top: 200px;
+  left: 175px;
+}
+
+.ddimage{
+  position: fixed;
+  top: 150px;
+  left: 100px;
+}
+
+.deeperimage{
+  position: fixed;
+  top: 220px;
+  left: 200px;
+}
+
+.puzzimage{
+  position: fixed;
+  top: 220px;
+  left: 220px;
+}
+
+.bangimage{
+  position: fixed;
+  top: 175px;
+  left: 125px;
+}
+.emoryimage{
+  position: fixed;
+  top: 250px;
+  left: 250px;
+}
+
+/* NOTE: list items article 2 */
+
+.list__1of4{
+  color: black;
+  animation-name: listone;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+@keyframes listone{
+    0%   {color: pink;}
+    25%  {color: salmon;}
+    50%  {color: coral;}
+    100% {color: peachpuff;}
+}
+
+.list__2of4{
+  color: black;
+  animation-name: listtwo;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+@keyframes listtwo{
+    0%   {color: salmon;}
+    25%  {color: coral;}
+    50%  {color: peachpuff;}
+    100% {color: pink;}
+}
+.list__3of4{
+  color: black;
+  animation-name: listthree;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+@keyframes listthree{
+    0%   {color: coral;}
+    25%  {color: peachpuff;}
+    50%  {color: pink;}
+    100% {color: salmon;}
+}
+.list__4of4{
+  color: black;
+  animation-name: listfour;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+@keyframes listfour{
+    0%   {color: peachpuff;}
+    25%  {color: pink;}
+    50%  {color: salmon;}
+    100% {color: coral;}
 }
