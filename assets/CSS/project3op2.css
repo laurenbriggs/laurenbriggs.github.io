@@ -123,6 +123,7 @@ animation-iteration-count: infinite;
   filter: blur(5px);
   transition: 1s;
 }
+
 @keyframes heading{
   0%   {color: pink;}
   25%  {color: salmon;}
@@ -208,7 +209,7 @@ animation-iteration-count: infinite;
   font-size: 30pt;
   color: plum;
   position: fixed;
-  top:43vh;
+  top:40vh;
   right: -15px;
   z-index: 5;
   transform: rotate(90deg);
