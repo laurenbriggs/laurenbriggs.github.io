@@ -965,3 +965,14 @@ animation-iteration-count: infinite;
   z-index: -2;
   opacity: 0.1;
 }
+.phenomenal{
+  font-family: 'Barrio';
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  left: 75px;
+  width: 1500px;
+  height: auto;
+  z-index: -2;
+  opacity: 0.1;
+}
