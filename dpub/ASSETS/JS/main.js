@@ -80,4 +80,50 @@ $(document).ready(function() {
     $('.photo').removeClass('showme');
     });
 
+    $('.tldr').mouseenter(function() {
+    $('.tldr').addClass('showme');
+    });
+
+    $('.tldr').mouseleave(function() {
+    $('.tldr').removeClass('showme');
+    });
+
+    $('.sub').mouseenter(function() {
+    $('.sub').addClass('showme');
+    });
+
+    $('.sub').mouseleave(function() {
+    $('.sub').removeClass('showme');
+    });
+
+    $('.title').mouseenter(function() {
+    $('.title').addClass('showme');
+    });
+
+    $('.title').mouseleave(function() {
+    $('.title').removeClass('showme');
+    });
+
+        $('.link__1of3').mouseenter(function() {
+        $('.link__1of3').addClass('showme');
+        });
+
+        $('.link__1of3').mouseleave(function() {
+        $('.link__1of3').removeClass('showme');
+        });
+
+        $('.link__2of3').mouseenter(function() {
+        $('.link__2of3').addClass('showme');
+        });
+
+        $('.link__2of3').mouseleave(function() {
+        $('.link__2of3').removeClass('showme');
+        });
+        $('.link__3of3').mouseenter(function() {
+        $('.link__3of3').addClass('showme');
+        });
+
+        $('.link__3of3').mouseleave(function() {
+        $('.link__3of3').removeClass('showme');
+        });
 });

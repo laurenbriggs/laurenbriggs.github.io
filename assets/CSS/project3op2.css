@@ -322,6 +322,8 @@ a:hover{
 
 .nyimage{
   position: fixed;
+  height: 675px;
+  width: auto;
   top: 0px;
   left:50px;
 }
@@ -790,7 +792,7 @@ a:hover{
 }
 
 .no{
-  animation-name: listone;
+  animation-name: no;
   animation-duration:2s;
   animation-iteration-count: infinite;
 }
