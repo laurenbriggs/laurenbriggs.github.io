@@ -195,7 +195,7 @@ animation-iteration-count: infinite;
   }
 
 .nav__1of6{
- transform: rotate(90);
+ transform: rotate(180);
   font-size: 6pt;
   color: grey;
   position: fixed;
@@ -214,6 +214,7 @@ animation-iteration-count: infinite;
   transform: rotate(90);
 }
 .nav__3of6{
+  transform: rotate(90);
   font-size: 6pt;
   color: grey;
   position: fixed;
@@ -223,6 +224,7 @@ animation-iteration-count: infinite;
 }
 
 .nav__4of6{
+transform: rotate(90);
   font-family: 'Just Me Again Down Here';
   font-size: 6pt;
   color: plum;
@@ -232,6 +234,7 @@ animation-iteration-count: infinite;
   z-index: 5;
 }
 .nav__5of6{
+transform: rotate(90);
   font-size: 6pt;
   color: grey;
   position: fixed;
@@ -241,6 +244,7 @@ animation-iteration-count: infinite;
 }
 
 .nav__6of6{
+transform: rotate(90);
   font-size: 6pt;
   color: plum;
   position: fixed;
@@ -968,10 +972,10 @@ animation-iteration-count: infinite;
 
 
   @keyframes beautiful{
-      0%   {color: pink;}
-      25%  {color: salmon;}
-      50%  {color: coral;}
-      100% {color: peachpuff;}
+      0%   {color: salmon;}
+      25%  {color: coral;}
+      50%  {color: peachpuff;}
+      100% {color: pink;}
 }
 
 .learn{
