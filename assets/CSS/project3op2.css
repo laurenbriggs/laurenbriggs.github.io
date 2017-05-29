@@ -248,8 +248,8 @@ transform: rotate(90deg);
   font-size: 30pt;
   color: plum;
   position: fixed;
-  top:80px;
-  right: -15px;
+  top:100px;
+  right: -25px;
   z-index: 5;
 }
 
