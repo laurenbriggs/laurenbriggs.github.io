@@ -521,6 +521,25 @@ $('.list__1of4').mouseleave(function() {
           $('.list__4of4').removeClass('showme');
         });
 
+        $('.list__1of2').mouseenter(function() {
+          $('.list__1of2').addClass('showme');
+        });
+
+        $('.list__1of2').mouseleave(function() {
+            $('.list__1of2').removeClass('showme');
+          });
+
+
+          $('.list__2of2').mouseenter(function() {
+            $('.list__2of2').addClass('showme');
+          });
+
+          $('.list__2of2').mouseleave(function() {
+              $('.list__2of2').removeClass('showme');
+            });
+
+
+
 
 // NOTE: article three
 

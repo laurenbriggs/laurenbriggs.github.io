@@ -800,6 +800,24 @@ transform: rotate(90deg);
     100% {color: coral;}
 }
 
+.list__1of2{
+  animation-name: listone;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+.list__1of2.showme{
+  text-transform: uppercase;
+}
+
+.list__2of2{
+  animation-name: listtwo;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+.list__2of2.showme{
+  text-transform: uppercase;
+}
+
 
 /* NOTE: article three */
 
