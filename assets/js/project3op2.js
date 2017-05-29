@@ -21,13 +21,30 @@ $(document).ready(function() {
         $('.centre').toggleClass('hide');
       });
 
-      $('.heading').mouseenter(function() {
-        $('.midimage').addClass('showme');
+    $('.heading').mouseenter(function() {
+      $('.midimage').addClass('showme');
+    });
+
+    $('.midimage').mouseleave(function() {
+        $('.midimage').removeClass('showme');
       });
 
-      $('.midimage').mouseleave(function() {
-          $('.midimage').removeClass('showme');
-        });
+    $('.heading').mouseenter(function() {
+      $('.heading').addClass('hide');
+    });
+
+    $('.midimage').mouseleave(function() {
+        $('.heading').removeClass('hide');
+      });
+
+    $('.midimage').mouseenter(function() {
+      $('.captiona1').addClass('showme');
+    });
+
+    $('.midimage').mouseleave(function() {
+        $('.captiona1').removeClass('showme');
+      });
+
 
 
 
