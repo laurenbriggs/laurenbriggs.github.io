@@ -126,4 +126,11 @@ $(document).ready(function() {
         $('.link__3of3').mouseleave(function() {
         $('.link__3of3').removeClass('showme');
         });
+        $('.nav').mouseenter(function() {
+        $('.nav').addClass('showme');
+        });
+
+        $('.nav').mouseleave(function() {
+        $('.nav').removeClass('showme');
+        });
 });

@@ -1,11 +1,12 @@
 *{
   box-sizing:border-box;
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 body{
   font-family: tahoma;
   color: coral;
+  letter-spacing: 5pt;
 }
 
 .group {
@@ -45,7 +46,6 @@ a:hover{
         100% {color: pink;}
   }
 a:link{
-  color: darksalmon;
   text-decoration: none;
   animation-name:link;
   animation-duration:2s;
@@ -61,7 +61,6 @@ a:link{
 .title{
   font-size: 80px;
   padding: 10px;
-  margin-left: 40px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
@@ -91,7 +90,6 @@ a:link{
 }
 
 .link__1of3{
-padding: 5px;
   flex: 0 0 33%;
   transition: 2s;
 }
@@ -100,7 +98,6 @@ padding: 5px;
   transition: 2s;
 }
 .link__2of3{
-padding: 5px;
   flex: 0 0 33%;
   transition: 2s;
 }
@@ -109,7 +106,6 @@ padding: 5px;
   transition: 2s;
 }
 .link__3of3{
-padding: 5px;
   flex: 0 0 33%;
   transition: 2s;
 }
@@ -120,6 +116,8 @@ padding: 5px;
 
 .tldr{
   font-size: 30px;
+  width: 900px;
+  margin-left: 14vw;
   animation-name: tldread;
   animation-duration:2s;
   animation-iteration-count: infinite;
@@ -129,29 +127,12 @@ padding: 5px;
   text-decoration: overline;
 }
 @keyframes tldread{
-    0%   {color: pink;}
-    25%  {color: salmon;}
-    50%  {color: coral;}
-    100% {color: peachpuff;}
-}
-
-.sub{
-  font-size: 80px;
-  animation-name: sub;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-  text-align: center;
-}
-
-.sub.showme{
-  text-transform: uppercase;
-}
-@keyframes sub{
     0%   {color: salmon;}
     25%  {color: coral;}
     50%  {color: peachpuff;}
     100% {color: pink;}
 }
+
 
 .P1__2{
   position: fixed;
