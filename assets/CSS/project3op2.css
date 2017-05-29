@@ -106,7 +106,6 @@ a:hover{
 }
 
 .heading{
-  margin-top: 100px;
   font-family: helvetica;
   font-weight: lighter;
   font-size: 60px;
@@ -201,7 +200,8 @@ animation-iteration-count: infinite;
   position: fixed;
   top: 40px;
   left: 20px;
-  z-index: 4
+  z-index: 4;
+  transform: rotate(90);
 }
 
 .nav__2of6{
@@ -211,6 +211,7 @@ animation-iteration-count: infinite;
   top:40px;
   right: 20px;
   z-index: 5;
+  transform: rotate(90);
 }
 .nav__3of6{
   font-size: 6pt;
