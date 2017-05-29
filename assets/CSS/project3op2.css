@@ -52,7 +52,15 @@ a:hover{
   left: 10px;
   z-index: 6;
 }
-.a1{
+.a1__2{
+  font-size: 8pt;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 6;
+}
+.a1__3{
+  font-family: 'Barrio';
   font-size: 8pt;
   position: fixed;
   top: 10px;
@@ -60,7 +68,9 @@ a:hover{
   z-index: 6;
 }
 
-.a2{
+
+.a2__1{
+  font-family: 'Amatic SC';
   font-size: 8pt;
   position: fixed;
   top: 10px;
@@ -68,13 +78,23 @@ a:hover{
   z-index: 6;
 }
 .a2__3{
+  font-family: '';
   font-size: 8pt;
   position: fixed;
   bottom: 10px;
   right: 10px;
   z-index: 6;
 }
-.a3{
+.a3__1{
+  font-family: 'Amatic SC';
+  font-size: 8pt;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 6;
+}
+.a3__2{
+  font-family: '';
   font-size: 8pt;
   position: fixed;
   bottom: 10px;
