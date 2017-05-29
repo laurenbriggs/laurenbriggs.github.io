@@ -116,8 +116,8 @@ a:link{
 
 .tldr{
   font-size: 30px;
-  width: 900px;
-  margin-left: 14vw;
+  width: 1050px;
+  margin-left: 8vw;
   animation-name: tldread;
   animation-duration:2s;
   animation-iteration-count: infinite;

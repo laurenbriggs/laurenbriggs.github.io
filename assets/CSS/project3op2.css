@@ -40,16 +40,62 @@ a:hover{
 .heading{
   font-family: helvetica;
   font-weight: lighter;
-  font-size: 18px;
-  color: grey;
+  font-size: 45px;
+animation-name: heading;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+@keyframes heading{
+  0%   {color: pink;}
+  25%  {color: salmon;}
+  50%  {color: coral;}
+  100% {color: peachpuff;}
 }
 
+.midimage{
+  display: none;
+}
 .caption{
-  font-family: 'barrio';
   font-size: 12px;
-  color: grey;
 }
 
+
+.captiona1{
+  font-family: 'Amatic SC';
+  animation-name: captiona1;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes captiona1{
+    0%   {color: salmon;}
+    25%  {color: coral;}
+    50%  {color: peachpuff;}
+    100% {color: pink;}
+}
+.captiona2{
+  font-family: 'Just Me Again Down Here';
+  animation-name: captiona2;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes captiona2{
+    0%   {color: salmon;}
+    25%  {color: coral;}
+    50%  {color: peachpuff;}
+    100% {color: pink;}
+}
+.captiona3{
+    font-family: 'barrio';
+    animation-name: captiona3;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes captiona3{
+      0%   {color: salmon;}
+      25%  {color: coral;}
+      50%  {color: peachpuff;}
+      100% {color: pink;}
+  }
 
 .nav__1of6{
   font-size: 6pt;
