@@ -943,7 +943,7 @@ animation-iteration-count: infinite;
 
 
 .beautiful{
-  font-family: 'Amatic SC'
+  font-family: 'Amatic SC';
   display: inline-block;
   position: fixed;
   top: 0px;
