@@ -199,7 +199,7 @@ animation-iteration-count: infinite;
   font-size: 24pt;
   color: grey;
   position: fixed;
-  top: 80px;
+  top: 43vh;
   left: -20px;
   z-index: 4;
 }
@@ -208,7 +208,7 @@ animation-iteration-count: infinite;
   font-size: 30pt;
   color: plum;
   position: fixed;
-  top:80px;
+  top:45vh;
   right: -15px;
   z-index: 5;
   transform: rotate(90deg);
