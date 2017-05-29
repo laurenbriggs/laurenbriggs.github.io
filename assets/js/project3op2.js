@@ -21,6 +21,16 @@ $(document).ready(function() {
         $('.centre').toggleClass('hide');
       });
 
+      $('.heading').mouseenter(function() {
+        $('.midimage').addClass('showme');
+      });
+
+      $('.midimage').mouseleave(function() {
+          $('.midimage').removeClass('showme');
+        });
+
+
+
 // NOTE: article one
 
       $('.facebook').mouseenter(function() {
