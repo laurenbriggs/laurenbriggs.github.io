@@ -167,6 +167,10 @@ animation-iteration-count: infinite;
   animation-name: captiona2;
   animation-duration:2s;
   animation-iteration-count: infinite;
+  display: none;
+}
+.captiona2.showme{
+  display: block;
 }
 @keyframes captiona2{
     0%   {color: salmon;}
@@ -179,7 +183,11 @@ animation-iteration-count: infinite;
     animation-name: captiona3;
     animation-duration:2s;
     animation-iteration-count: infinite;
-  }
+    display: none;
+}
+.captiona3.showme{
+  display: block;
+}
   @keyframes captiona3{
       0%   {color: salmon;}
       25%  {color: coral;}

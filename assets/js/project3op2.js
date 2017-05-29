@@ -45,6 +45,21 @@ $(document).ready(function() {
         $('.captiona1').removeClass('showme');
       });
 
+      $('.midimage').mouseenter(function() {
+        $('.captiona2').addClass('showme');
+      });
+
+      $('.midimage').mouseleave(function() {
+          $('.captiona2').removeClass('showme');
+        });
+
+        $('.midimage').mouseenter(function() {
+          $('.captiona3').addClass('showme');
+        });
+
+        $('.midimage').mouseleave(function() {
+            $('.captiona3').removeClass('showme');
+          });
 
 
 
