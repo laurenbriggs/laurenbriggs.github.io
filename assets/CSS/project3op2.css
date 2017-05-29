@@ -195,13 +195,13 @@ animation-iteration-count: infinite;
   }
 
 .nav__1of6{
+ transform: rotate(90);
   font-size: 6pt;
   color: grey;
   position: fixed;
   top: 40px;
   left: 20px;
   z-index: 4;
-  transform: rotate(90);
 }
 
 .nav__2of6{
@@ -961,6 +961,17 @@ animation-iteration-count: infinite;
   height: auto;
   z-index: -2;
   opacity: 0.1;
+  animation-name: beautiful;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+  }
+
+
+  @keyframes beautiful{
+      0%   {color: pink;}
+      25%  {color: salmon;}
+      50%  {color: coral;}
+      100% {color: peachpuff;}
 }
 
 .learn{
