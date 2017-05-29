@@ -53,6 +53,7 @@ a:hover{
   z-index: 6;
 }
 .a1__2{
+  font-family: 'Just Me Again Down Here';
   font-size: 8pt;
   position: fixed;
   top: 10px;
@@ -78,7 +79,7 @@ a:hover{
   z-index: 6;
 }
 .a2__3{
-  font-family: '';
+  font-family: 'Barrio';
   font-size: 8pt;
   position: fixed;
   bottom: 10px;
@@ -94,7 +95,7 @@ a:hover{
   z-index: 6;
 }
 .a3__2{
-  font-family: '';
+  font-family: 'Just Me Again Down Here';
   font-size: 8pt;
   position: fixed;
   bottom: 10px;
