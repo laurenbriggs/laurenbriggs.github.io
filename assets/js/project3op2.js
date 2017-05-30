@@ -12,6 +12,31 @@ $(document).ready(function() {
           $('.articler').toggleClass('showme');
         });
 
+    $('.nav__1of6').click(function() {
+        $('.articlel').toggleClass('showme');
+      });
+
+      $('.nav__2of6').click(function() {
+          $('.articler').toggleClass('showme');
+        });
+
+    $('.nav__3of6').click(function() {
+        $('.articlel').toggleClass('showme');
+      });
+
+      $('.nav__4of6').click(function() {
+          $('.articler').toggleClass('showme');
+        });
+
+
+      $('.nav__5of6').click(function() {
+          $('.articlel').toggleClass('showme');
+        });
+
+        $('.nav__6of6').click(function() {
+            $('.articler').toggleClass('showme');
+          });
+
 
   $('.articlel').click(function() {
       $('.centre').toggleClass('hide');
