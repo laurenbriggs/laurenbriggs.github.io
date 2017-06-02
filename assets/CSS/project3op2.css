@@ -196,6 +196,7 @@ animation-iteration-count: infinite;
   }
 
 .nav__1of6{
+  text-transform: uppercase;
  transform: rotate(270deg);
   font-size: 24pt;
   color: grey;
@@ -215,6 +216,7 @@ animation-iteration-count: infinite;
   transform: rotate(90deg);
 }
 .nav__3of6{
+  text-transform: uppercase;
   transform: rotate(270deg);
   font-size: 24pt;
   color: grey;
@@ -235,6 +237,7 @@ transform: rotate(90deg);
   z-index: 5;
 }
 .nav__5of6{
+  text-transform: uppercase;
 transform: rotate(270deg);
   font-size: 24pt;
   color: grey;
