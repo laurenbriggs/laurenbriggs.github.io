@@ -8,6 +8,28 @@ $(document).ready(function() {
         $('.articlel').toggleClass('showme');
       });
 
+      $('.articlel').click(function() {
+          $('.nav__1of6').toggleClass('hide');
+        });
+
+        $('.articler').click(function() {
+            $('.nav__2of6').toggleClass('hide');
+          });
+
+          $('.articlel').click(function() {
+              $('.nav__3of6').toggleClass('hide');
+            });
+            $('.articler').click(function() {
+                $('.nav__4of6').toggleClass('hide');
+              });
+              $('.articlel').click(function() {
+                  $('.nav__5of6').toggleClass('hide');
+                });
+                $('.articler').click(function() {
+                    $('.nav__6of6').toggleClass('hide');
+                  });
+
+
       $('.articler').click(function() {
           $('.articler').toggleClass('showme');
         });
