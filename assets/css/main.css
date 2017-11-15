@@ -160,8 +160,8 @@ background-color:white;
   padding: 250px;
   margin-top: 150px;
   font-family: helvetica;
-  font-weight: lighter;
-  font-size: 16pt;
+  font-weight: normal;
+  font-size: 20pt;
   text-transform: uppercase;
   color: darkgrey;
 }
@@ -195,216 +195,216 @@ background-color:white;
 }
 
 .box_ngv{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_ngv.showme{
-  opacity: 0.15;
-  transition: 0.5;
+  opacity: 0.05;
+  transition: 0.75;
 }
 
 .text_ngv{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_ngv.showme{
   position: absolute;
   display: block;
-  margin-top: 12vh;
-  margin-left: 8vw;
+  margin-top: 14vh;
+  margin-left: 9vw;
   color: powderblue;
   text-align: center;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 
 .box_screen{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_screen.showme{
-  opacity: 0.2;
-  transition: 0.5;
+  opacity: 0.05;
+  transition: 0.75;
 }
 
 .text_screen{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_screen.showme{
   position: absolute;
   display: block;
-  margin-top: 13vh;
+  margin-top: 14vh;
   margin-left: 5vw;
   color: powderblue;
   text-align: center;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 
 .box_bon{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_bon.showme{
   opacity: 0.15;
-  transition: 0.5;
+  transition: 0.75;
 }
 
 .text_bon{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_bon.showme{
   position: absolute;
   display: block;
-  margin-top: 12vh;
-  margin-left: 7vw;
+  margin-top: 14vh;
+  margin-left: 8vw;
   color: powderblue;
   text-align: center;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 
 .box_hosp{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_hosp.showme{
-  opacity: 0.15;
-  transition: 0.5;
+  opacity: 0.05;
+  transition: 0.75;
 }
 
 .text_hosp{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_hosp.showme{
   position: absolute;
   display: block;
-  margin-top: 12vh;
-  margin-left: 5vw;
+  margin-top: 14vh;
+  margin-left: 5.2vw;
   color: powderblue;
   text-align: center;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 
 .box_pasta{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_pasta.showme{
-  opacity: 0.2;
-  transition: 0.5;
+  opacity: 0.05;
+  transition: 0.75;
 }
 
 .text_pasta{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_pasta.showme{
   position: absolute;
   display: block;
-  margin-top: 12.5vh;
-  margin-left: 7vw;
+  margin-top: 14vh;
+  margin-left: 8vw;
   color: powderblue;
   text-align: center;
   z-index: 2;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_sounding{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_sounding.showme{
-  opacity: 0.1;
+  opacity: 0.05;
   transition: 0.5;
 }
 
 .text_sounding{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_sounding.showme{
   position: absolute;
   display: block;
-  margin-top: 17vh;
+  margin-top: 19.6vh;
   margin-left: 5vw;
   color: powderblue;
   text-align: center;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 
 .box_wallpaper{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_wallpaper.showme{
-  opacity: 0.1;
-  transition: 0.5;
+  opacity: 0.05;
+  transition: 0.75;
 }
 
 .text_wallpaper{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_wallpaper.showme{
   position: absolute;
   display: block;
-  margin-top: 13vh;
-  margin-left: 4.5vw;
+  margin-top: 14vh;
+  margin-left: 4.4vw;
   color: powderblue;
   text-align: center;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_sense{
-  opacity: 1;
+  opacity: 0.5;
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 .box_sense.showme{
-  opacity: 0.1;
-  transition: 0.5;
+  opacity: 0.05;
+  transition: 0.75;
 }
 
 .text_sense{
   display: none;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .text_sense.showme{
   position: absolute;
   display: block;
-  margin-top: 13vh;
+  margin-top: 14.5vh;
   margin-left: 5vw;
   color: powderblue;
   text-align: center;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 
 
